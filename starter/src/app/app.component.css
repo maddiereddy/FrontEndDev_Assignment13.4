@@ -1,0 +1,16 @@
+h1 {
+  color: #cc0000;
+}
+
+.even {
+    background-color: lightblue;
+    color: black;
+}
+.odd {
+    background-color: lightskyblue;
+    color: black;
+}
+
+.details {
+    padding: 20px;
+}

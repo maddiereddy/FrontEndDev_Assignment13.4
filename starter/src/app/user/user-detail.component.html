@@ -1,0 +1,11 @@
+<div *ngIf="user" class="details">
+    <h2>{{user.name}} Details</h2>
+    <div><label><b>Name: </b></label>{{user.name}}</div>
+    <div><label><b>Gender: </b></label>{{user.gender}}</div>
+    <div><label><b>Age: </b></label>{{user.age}}</div>
+    <div><label><b>Company: </b></label>{{user.companyName}}</div>
+    <div><label><b>Title: </b></label>{{user.designation}}</div>
+
+    <br>
+    <button type="button" class="btn btn-primary" (click)="back()">Back</button>
+</div>

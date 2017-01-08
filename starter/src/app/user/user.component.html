@@ -1,0 +1,13 @@
+<div class="details">
+    <h2>User List:</h2>
+    <br>
+    <div *ngFor = 'let user of users; let index=index;'
+         [class.odd]='index%2==1' [class.even]='index%2==0'>
+        <ul>
+            <li><a [routerLink]="['/users', user.id]" style="color: black">
+                <span>{{user.name}}: </span>
+                <span>{{user.companyName}}</span>
+            </a></li>
+        </ul>
+    </div>
+</div>
